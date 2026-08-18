@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-08-17T15:52:16 IST" name="Default suite" finished-at="2026-08-17T15:52:16 IST" duration-ms="36">
+  <suite started-at="2026-08-18T15:51:28 IST" name="Default suite" finished-at="2026-08-18T15:51:28 IST" duration-ms="37">
     <groups>
     </groups>
-    <test started-at="2026-08-17T15:52:16 IST" name="Default test" finished-at="2026-08-17T15:52:16 IST" duration-ms="36">
-      <class name="test.automation_testing.annotations">
-        <test-method is-config="true" signature="a()[pri:0, instance:test.automation_testing.annotations@434a63ab]" started-at="2026-08-17T15:52:16 IST" name="a" finished-at="2026-08-17T15:52:16 IST" duration-ms="4" status="PASS">
+    <test started-at="2026-08-18T15:51:28 IST" name="Default test" finished-at="2026-08-18T15:51:28 IST" duration-ms="37">
+      <class name="test.automation_testing.priorityintestng">
+        <test-method signature="add()[pri:0, instance:test.automation_testing.priorityintestng@2ed2d9cb]" started-at="2026-08-18T15:51:28 IST" name="add" finished-at="2026-08-18T15:51:28 IST" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- a -->
-        <test-method signature="c()[pri:0, instance:test.automation_testing.annotations@434a63ab]" started-at="2026-08-17T15:52:16 IST" name="c" finished-at="2026-08-17T15:52:16 IST" duration-ms="7" status="PASS">
+        </test-method> <!-- add -->
+        <test-method signature="display()[pri:0, instance:test.automation_testing.priorityintestng@2ed2d9cb]" started-at="2026-08-18T15:51:28 IST" name="display" finished-at="2026-08-18T15:51:28 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- c -->
-        <test-method is-config="true" signature="b()[pri:0, instance:test.automation_testing.annotations@434a63ab]" started-at="2026-08-17T15:52:16 IST" name="b" finished-at="2026-08-17T15:52:16 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- display -->
+        <test-method signature="show()[pri:0, instance:test.automation_testing.priorityintestng@2ed2d9cb]" started-at="2026-08-18T15:51:28 IST" name="show" finished-at="2026-08-18T15:51:28 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- b -->
-      </class> <!-- test.automation_testing.annotations -->
+        </test-method> <!-- show -->
+      </class> <!-- test.automation_testing.priorityintestng -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
