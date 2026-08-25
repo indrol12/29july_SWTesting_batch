@@ -5,21 +5,27 @@ import org.testng.annotations.Test;
 
 public class priorityintestng {
 
-	@Test
+	@Test(groups="smoketest")
 	void show()
 	{
 	
 		System.out.println("show method runs...");
 	}
-	@Test
+	@Test(groups="regressiontest")
 	void display()
 	{
 		System.out.println("display  method runs...");
 	}
-	@Test
+	@Test(groups="smoketest")
 	void add()
 	{
 		System.out.println("add method runs...");
+	
+	}
+	@Test
+	void fct()
+	{
+		System.out.println("fct...");
 	
 	}
 }
