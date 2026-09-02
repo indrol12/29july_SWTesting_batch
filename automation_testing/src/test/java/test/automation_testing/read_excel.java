@@ -1,6 +1,6 @@
 package test.automation_testing;
 
-import java.io.FileNotFoundException;
+import java.io.IOException;
 
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 public class read_excel {
 	
 	@DataProvider(name="testData")
-	public Object[][] testData() throws FileNotFoundException
+	public Object[][] testData() throws IOException
 	{
 		
 		String path="C:\\Users\\Admin\\Desktop\\script.xlsx";

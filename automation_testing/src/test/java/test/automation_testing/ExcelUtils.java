@@ -1,19 +1,21 @@
 package test.automation_testing;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
+import java.io.IOException;
 
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
-
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 public class ExcelUtils {
 	
-	public static Object[][] getExcelData(String path,String sheetName) throws FileNotFoundException
+	public static Object[][] getExcelData(String path,String sheetName) throws IOException
 	{
 		FileInputStream file=new FileInputStream(path);
 		
-	   Workbook workbook =new Workbook(file);
-		
+	   //Workbook workbook =new Workbook(file);
+
+
+	   XSSFWorkbook workbook = new XSSFWorkbook(file);
 		Sheet sheet=workbook.getSheet(sheetName);
 		
 		int rows=sheet.getPhysicalNumberOfRows();
